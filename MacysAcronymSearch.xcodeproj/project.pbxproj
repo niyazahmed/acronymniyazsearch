@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516019E31BE2CB700071A345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019E21BE2CB700071A345 /* main.m */; };
+		516019E61BE2CB700071A345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019E51BE2CB700071A345 /* AppDelegate.m */; };
+		516019E91BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 516019E71BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld */; };
+		516019EC1BE2CB700071A345 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019EB1BE2CB700071A345 /* ViewController.m */; };
+		516019EF1BE2CB700071A345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516019ED1BE2CB700071A345 /* Main.storyboard */; };
+		516019F11BE2CB700071A345 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516019F01BE2CB700071A345 /* Images.xcassets */; };
+		516019F41BE2CB700071A345 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 516019F21BE2CB700071A345 /* LaunchScreen.xib */; };
+		51601A001BE2CB700071A345 /* MacysAcronymSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019FF1BE2CB700071A345 /* MacysAcronymSearchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		516019FA1BE2CB700071A345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516019D51BE2CB700071A345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516019DC1BE2CB700071A345;
+			remoteInfo = MacysAcronymSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		516019DD1BE2CB700071A345 /* MacysAcronymSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacysAcronymSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516019E11BE2CB700071A345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516019E21BE2CB700071A345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		516019E41BE2CB700071A345 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		516019E51BE2CB700071A345 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		516019E81BE2CB700071A345 /* MacysAcronymSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MacysAcronymSearch.xcdatamodel; sourceTree = "<group>"; };
+		516019EA1BE2CB700071A345 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		516019EB1BE2CB700071A345 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		516019EE1BE2CB700071A345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		516019F01BE2CB700071A345 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		516019F31BE2CB700071A345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		516019F91BE2CB700071A345 /* MacysAcronymSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacysAcronymSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516019FE1BE2CB700071A345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516019FF1BE2CB700071A345 /* MacysAcronymSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacysAcronymSearchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516019DA1BE2CB700071A345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516019F61BE2CB700071A345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516019D41BE2CB700071A345 = {
+			isa = PBXGroup;
+			children = (
+				516019DF1BE2CB700071A345 /* MacysAcronymSearch */,
+				516019FC1BE2CB700071A345 /* MacysAcronymSearchTests */,
+				516019DE1BE2CB700071A345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516019DE1BE2CB700071A345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516019DD1BE2CB700071A345 /* MacysAcronymSearch.app */,
+				516019F91BE2CB700071A345 /* MacysAcronymSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516019DF1BE2CB700071A345 /* MacysAcronymSearch */ = {
+			isa = PBXGroup;
+			children = (
+				516019E41BE2CB700071A345 /* AppDelegate.h */,
+				516019E51BE2CB700071A345 /* AppDelegate.m */,
+				516019EA1BE2CB700071A345 /* ViewController.h */,
+				516019EB1BE2CB700071A345 /* ViewController.m */,
+				516019ED1BE2CB700071A345 /* Main.storyboard */,
+				516019F01BE2CB700071A345 /* Images.xcassets */,
+				516019F21BE2CB700071A345 /* LaunchScreen.xib */,
+				516019E71BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld */,
+				516019E01BE2CB700071A345 /* Supporting Files */,
+			);
+			path = MacysAcronymSearch;
+			sourceTree = "<group>";
+		};
+		516019E01BE2CB700071A345 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				516019E11BE2CB700071A345 /* Info.plist */,
+				516019E21BE2CB700071A345 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		516019FC1BE2CB700071A345 /* MacysAcronymSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				516019FF1BE2CB700071A345 /* MacysAcronymSearchTests.m */,
+				516019FD1BE2CB700071A345 /* Supporting Files */,
+			);
+			path = MacysAcronymSearchTests;
+			sourceTree = "<group>";
+		};
+		516019FD1BE2CB700071A345 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				516019FE1BE2CB700071A345 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516019DC1BE2CB700071A345 /* MacysAcronymSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51601A031BE2CB700071A345 /* Build configuration list for PBXNativeTarget "MacysAcronymSearch" */;
+			buildPhases = (
+				516019D91BE2CB700071A345 /* Sources */,
+				516019DA1BE2CB700071A345 /* Frameworks */,
+				516019DB1BE2CB700071A345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacysAcronymSearch;
+			productName = MacysAcronymSearch;
+			productReference = 516019DD1BE2CB700071A345 /* MacysAcronymSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		516019F81BE2CB700071A345 /* MacysAcronymSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51601A061BE2CB700071A345 /* Build configuration list for PBXNativeTarget "MacysAcronymSearchTests" */;
+			buildPhases = (
+				516019F51BE2CB700071A345 /* Sources */,
+				516019F61BE2CB700071A345 /* Frameworks */,
+				516019F71BE2CB700071A345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516019FB1BE2CB700071A345 /* PBXTargetDependency */,
+			);
+			name = MacysAcronymSearchTests;
+			productName = MacysAcronymSearchTests;
+			productReference = 516019F91BE2CB700071A345 /* MacysAcronymSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516019D51BE2CB700071A345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Niyaz Ahmed";
+				TargetAttributes = {
+					516019DC1BE2CB700071A345 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					516019F81BE2CB700071A345 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 516019DC1BE2CB700071A345;
+					};
+				};
+			};
+			buildConfigurationList = 516019D81BE2CB700071A345 /* Build configuration list for PBXProject "MacysAcronymSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516019D41BE2CB700071A345;
+			productRefGroup = 516019DE1BE2CB700071A345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516019DC1BE2CB700071A345 /* MacysAcronymSearch */,
+				516019F81BE2CB700071A345 /* MacysAcronymSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516019DB1BE2CB700071A345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516019EF1BE2CB700071A345 /* Main.storyboard in Resources */,
+				516019F41BE2CB700071A345 /* LaunchScreen.xib in Resources */,
+				516019F11BE2CB700071A345 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516019F71BE2CB700071A345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516019D91BE2CB700071A345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516019E61BE2CB700071A345 /* AppDelegate.m in Sources */,
+				516019E31BE2CB700071A345 /* main.m in Sources */,
+				516019EC1BE2CB700071A345 /* ViewController.m in Sources */,
+				516019E91BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516019F51BE2CB700071A345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51601A001BE2CB700071A345 /* MacysAcronymSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		516019FB1BE2CB700071A345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516019DC1BE2CB700071A345 /* MacysAcronymSearch */;
+			targetProxy = 516019FA1BE2CB700071A345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		516019ED1BE2CB700071A345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516019EE1BE2CB700071A345 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		516019F21BE2CB700071A345 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516019F31BE2CB700071A345 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51601A011BE2CB700071A345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51601A021BE2CB700071A345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51601A041BE2CB700071A345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MacysAcronymSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51601A051BE2CB700071A345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MacysAcronymSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		51601A071BE2CB700071A345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacysAcronymSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacysAcronymSearch.app/MacysAcronymSearch";
+			};
+			name = Debug;
+		};
+		51601A081BE2CB700071A345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacysAcronymSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacysAcronymSearch.app/MacysAcronymSearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516019D81BE2CB700071A345 /* Build configuration list for PBXProject "MacysAcronymSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51601A011BE2CB700071A345 /* Debug */,
+				51601A021BE2CB700071A345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51601A031BE2CB700071A345 /* Build configuration list for PBXNativeTarget "MacysAcronymSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51601A041BE2CB700071A345 /* Debug */,
+				51601A051BE2CB700071A345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51601A061BE2CB700071A345 /* Build configuration list for PBXNativeTarget "MacysAcronymSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51601A071BE2CB700071A345 /* Debug */,
+				51601A081BE2CB700071A345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		516019E71BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				516019E81BE2CB700071A345 /* MacysAcronymSearch.xcdatamodel */,
+			);
+			currentVersion = 516019E81BE2CB700071A345 /* MacysAcronymSearch.xcdatamodel */;
+			path = MacysAcronymSearch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 516019D51BE2CB700071A345 /* Project object */;
+}
