@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Acronym Search View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AcronymSearchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="dyE-yL-T4W">
+                                <rect key="frame" x="20" y="40" width="560" height="44"/>
+                                <animations/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="qig-Am-C9S"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="51" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="b9U-Ax-90T">
+                                <rect key="frame" x="20" y="104" width="560" height="496"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="acronymSearch" rowHeight="51" id="ZgX-Ep-odO" customClass="AcronymMeaningCell">
+                                        <rect key="frame" x="0.0" y="22" width="560" height="51"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZgX-Ep-odO" id="hm4-Aw-1QS">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="b9U-Ax-90T" secondAttribute="trailing" id="KEe-JP-4dm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dyE-yL-T4W" secondAttribute="trailing" id="MJy-ti-Of8"/>
+                            <constraint firstItem="b9U-Ax-90T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wy2-Jy-aOm"/>
+                            <constraint firstItem="dyE-yL-T4W" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="bgq-gi-nce"/>
+                            <constraint firstItem="dyE-yL-T4W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ivP-iu-eth"/>
+                            <constraint firstItem="b9U-Ax-90T" firstAttribute="top" secondItem="dyE-yL-T4W" secondAttribute="bottom" constant="20" id="qMb-GM-4TH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="b9U-Ax-90T" secondAttribute="bottom" id="wAI-MP-XUB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="dyE-yL-T4W" id="4gq-9e-Qi4"/>
+                        <outlet property="searchDisplayController" destination="01X-rR-3Pg" id="M9w-zb-Hxl"/>
+                        <outlet property="tableView" destination="b9U-Ax-90T" id="1HG-BN-7hX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="iU7-wg-yP7">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="jge-RU-MF1"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="q5w-hw-6WV"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="Gvl-8A-5GP"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="Bt6-rA-kHI"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="01X-rR-3Pg">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="BYM-mi-tA5"/>
+                        <outlet property="searchBar" destination="dyE-yL-T4W" id="3yA-tg-ha9"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="ckh-Ck-Fn4"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="N8b-By-5I2"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="glR-ii-B9a"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+        </scene>
+    </scenes>
+</document>

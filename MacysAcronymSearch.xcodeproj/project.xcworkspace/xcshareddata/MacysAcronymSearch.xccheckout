@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F3D02DAB-8B06-4BD3-9DDF-2569DEAB3F7B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MacysAcronymSearch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ED51177CDCA5A28228D12B013D705D45F6918450</key>
+		<string>https://github.com/niyazahmed/acronymniyazsearch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MacysAcronymSearch.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ED51177CDCA5A28228D12B013D705D45F6918450</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/niyazahmed/acronymniyazsearch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ED51177CDCA5A28228D12B013D705D45F6918450</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED51177CDCA5A28228D12B013D705D45F6918450</string>
+			<key>IDESourceControlWCCName</key>
+			<string>acronymniyazsearch</string>
+		</dict>
+	</array>
+</dict>
+</plist>

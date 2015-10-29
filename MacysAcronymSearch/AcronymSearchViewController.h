@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AcronymSearchViewController.h
 //  MacysAcronymSearch
 //
 //  Created by Niyaz Ahmed on 10/29/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AcronymSearchViewController : UIViewController
 
 
 @end

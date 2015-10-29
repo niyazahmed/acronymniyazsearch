@@ -1,0 +1,36 @@
+//
+//  ViewController.m
+//  MacysAcronymSearch
+//
+//  Created by Niyaz Ahmed on 10/29/15.
+//  Copyright (c) 2015 Niyaz Ahmed. All rights reserved.
+//
+
+#import "AcronymSearchViewController.h"
+
+@interface AcronymSearchViewController ()<UITableViewDataSource, UITableViewDelegate>
+
+@end
+
+@implementation AcronymSearchViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+  
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell* cell = [UITableViewCell new];
+    return cell;
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end

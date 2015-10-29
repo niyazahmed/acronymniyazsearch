@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07C7699E099D1249E0C3C481 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB2592652102A46C74121E6 /* libPods.a */; };
 		516019E31BE2CB700071A345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019E21BE2CB700071A345 /* main.m */; };
 		516019E61BE2CB700071A345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019E51BE2CB700071A345 /* AppDelegate.m */; };
-		516019E91BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 516019E71BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld */; };
-		516019EC1BE2CB700071A345 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019EB1BE2CB700071A345 /* ViewController.m */; };
-		516019EF1BE2CB700071A345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516019ED1BE2CB700071A345 /* Main.storyboard */; };
+		516019EC1BE2CB700071A345 /* AcronymSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019EB1BE2CB700071A345 /* AcronymSearchViewController.m */; };
 		516019F11BE2CB700071A345 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516019F01BE2CB700071A345 /* Images.xcassets */; };
 		516019F41BE2CB700071A345 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 516019F21BE2CB700071A345 /* LaunchScreen.xib */; };
 		51601A001BE2CB700071A345 /* MacysAcronymSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 516019FF1BE2CB700071A345 /* MacysAcronymSearchTests.m */; };
+		51B3427E1BE3B7B200773049 /* AcronymMeanings.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B3427D1BE3B7B200773049 /* AcronymMeanings.m */; };
+		51B342811BE3C1DC00773049 /* AcronymMeaningCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B342801BE3C1DC00773049 /* AcronymMeaningCell.m */; };
+		51B342841BE3C5FD00773049 /* AcronymLongForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B342831BE3C5FD00773049 /* AcronymLongForm.m */; };
+		51E32B571BE3B215001DCCAC /* OBaseHttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E32B511BE3B215001DCCAC /* OBaseHttpService.m */; };
+		51E32B591BE3B215001DCCAC /* AcronymSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E32B551BE3B215001DCCAC /* AcronymSearchService.m */; };
+		51E32B5E1BE3B289001DCCAC /* UnknownServiceResponseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E32B5C1BE3B289001DCCAC /* UnknownServiceResponseError.m */; };
+		51E32B611BE3B296001DCCAC /* NSString+MacysAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E32B5F1BE3B296001DCCAC /* NSString+MacysAdditions.m */; };
+		FD395FCA1BE442FE0061ADC6 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD395FC81BE442FE0061ADC6 /* Search.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +40,32 @@
 		516019E21BE2CB700071A345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		516019E41BE2CB700071A345 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		516019E51BE2CB700071A345 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		516019E81BE2CB700071A345 /* MacysAcronymSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MacysAcronymSearch.xcdatamodel; sourceTree = "<group>"; };
-		516019EA1BE2CB700071A345 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		516019EB1BE2CB700071A345 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		516019EE1BE2CB700071A345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		516019EA1BE2CB700071A345 /* AcronymSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcronymSearchViewController.h; sourceTree = "<group>"; };
+		516019EB1BE2CB700071A345 /* AcronymSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcronymSearchViewController.m; sourceTree = "<group>"; };
 		516019F01BE2CB700071A345 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		516019F31BE2CB700071A345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		516019F91BE2CB700071A345 /* MacysAcronymSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacysAcronymSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		516019FE1BE2CB700071A345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516019FF1BE2CB700071A345 /* MacysAcronymSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacysAcronymSearchTests.m; sourceTree = "<group>"; };
+		51B3427C1BE3B7B200773049 /* AcronymMeanings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcronymMeanings.h; path = Models/AcronymMeanings.h; sourceTree = "<group>"; };
+		51B3427D1BE3B7B200773049 /* AcronymMeanings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcronymMeanings.m; path = Models/AcronymMeanings.m; sourceTree = "<group>"; };
+		51B3427F1BE3C1DC00773049 /* AcronymMeaningCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcronymMeaningCell.h; path = views/AcronymMeaningCell.h; sourceTree = "<group>"; };
+		51B342801BE3C1DC00773049 /* AcronymMeaningCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcronymMeaningCell.m; path = views/AcronymMeaningCell.m; sourceTree = "<group>"; };
+		51B342821BE3C5FD00773049 /* AcronymLongForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcronymLongForm.h; path = Models/AcronymLongForm.h; sourceTree = "<group>"; };
+		51B342831BE3C5FD00773049 /* AcronymLongForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcronymLongForm.m; path = Models/AcronymLongForm.m; sourceTree = "<group>"; };
+		51E32B501BE3B20A001DCCAC /* Jsonizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jsonizer.h; path = Protocols/Jsonizer.h; sourceTree = "<group>"; };
+		51E32B511BE3B215001DCCAC /* OBaseHttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBaseHttpService.m; path = Services/OBaseHttpService.m; sourceTree = "<group>"; };
+		51E32B521BE3B215001DCCAC /* OBaseHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBaseHttpService.h; path = Services/OBaseHttpService.h; sourceTree = "<group>"; };
+		51E32B551BE3B215001DCCAC /* AcronymSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcronymSearchService.m; path = Services/AcronymSearchService.m; sourceTree = "<group>"; };
+		51E32B561BE3B215001DCCAC /* AcronymSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcronymSearchService.h; path = Services/AcronymSearchService.h; sourceTree = "<group>"; };
+		51E32B5C1BE3B289001DCCAC /* UnknownServiceResponseError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnknownServiceResponseError.m; path = Models/UnknownServiceResponseError.m; sourceTree = "<group>"; };
+		51E32B5D1BE3B289001DCCAC /* UnknownServiceResponseError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnknownServiceResponseError.h; path = Models/UnknownServiceResponseError.h; sourceTree = "<group>"; };
+		51E32B5F1BE3B296001DCCAC /* NSString+MacysAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MacysAdditions.m"; path = "Categories/NSString+MacysAdditions.m"; sourceTree = "<group>"; };
+		51E32B601BE3B296001DCCAC /* NSString+MacysAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MacysAdditions.h"; path = "Categories/NSString+MacysAdditions.h"; sourceTree = "<group>"; };
+		67EC2D043A34AD9DD53562E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8FB2592652102A46C74121E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E560ADA7F55B123AC16499B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FD395FC91BE442FE0061ADC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Search.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C7699E099D1249E0C3C481 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +93,8 @@
 				516019DF1BE2CB700071A345 /* MacysAcronymSearch */,
 				516019FC1BE2CB700071A345 /* MacysAcronymSearchTests */,
 				516019DE1BE2CB700071A345 /* Products */,
+				8EEA21BD4EDE99A2E1CF5B73 /* Pods */,
+				57891F35B208C4D19B0AFE39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +110,17 @@
 		516019DF1BE2CB700071A345 /* MacysAcronymSearch */ = {
 			isa = PBXGroup;
 			children = (
+				51E32B631BE3B2A1001DCCAC /* Categories */,
+				51E32B621BE3B29B001DCCAC /* Models */,
+				51E32B5A1BE3B21B001DCCAC /* Services */,
+				51E32B5B1BE3B225001DCCAC /* Protocols */,
 				516019E41BE2CB700071A345 /* AppDelegate.h */,
 				516019E51BE2CB700071A345 /* AppDelegate.m */,
-				516019EA1BE2CB700071A345 /* ViewController.h */,
-				516019EB1BE2CB700071A345 /* ViewController.m */,
-				516019ED1BE2CB700071A345 /* Main.storyboard */,
+				516019EA1BE2CB700071A345 /* AcronymSearchViewController.h */,
+				516019EB1BE2CB700071A345 /* AcronymSearchViewController.m */,
+				51B3427B1BE3B6E900773049 /* Views */,
 				516019F01BE2CB700071A345 /* Images.xcassets */,
 				516019F21BE2CB700071A345 /* LaunchScreen.xib */,
-				516019E71BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld */,
 				516019E01BE2CB700071A345 /* Supporting Files */,
 			);
 			path = MacysAcronymSearch;
@@ -122,6 +152,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		51B3427B1BE3B6E900773049 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD395FC81BE442FE0061ADC6 /* Search.storyboard */,
+				51B3427F1BE3C1DC00773049 /* AcronymMeaningCell.h */,
+				51B342801BE3C1DC00773049 /* AcronymMeaningCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		51E32B5A1BE3B21B001DCCAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				51E32B511BE3B215001DCCAC /* OBaseHttpService.m */,
+				51E32B521BE3B215001DCCAC /* OBaseHttpService.h */,
+				51E32B551BE3B215001DCCAC /* AcronymSearchService.m */,
+				51E32B561BE3B215001DCCAC /* AcronymSearchService.h */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		51E32B5B1BE3B225001DCCAC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				51E32B501BE3B20A001DCCAC /* Jsonizer.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		51E32B621BE3B29B001DCCAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51E32B5C1BE3B289001DCCAC /* UnknownServiceResponseError.m */,
+				51E32B5D1BE3B289001DCCAC /* UnknownServiceResponseError.h */,
+				51B3427C1BE3B7B200773049 /* AcronymMeanings.h */,
+				51B3427D1BE3B7B200773049 /* AcronymMeanings.m */,
+				51B342821BE3C5FD00773049 /* AcronymLongForm.h */,
+				51B342831BE3C5FD00773049 /* AcronymLongForm.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		51E32B631BE3B2A1001DCCAC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				51E32B5F1BE3B296001DCCAC /* NSString+MacysAdditions.m */,
+				51E32B601BE3B296001DCCAC /* NSString+MacysAdditions.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		57891F35B208C4D19B0AFE39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FB2592652102A46C74121E6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EEA21BD4EDE99A2E1CF5B73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67EC2D043A34AD9DD53562E4 /* Pods.debug.xcconfig */,
+				E560ADA7F55B123AC16499B1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51601A031BE2CB700071A345 /* Build configuration list for PBXNativeTarget "MacysAcronymSearch" */;
 			buildPhases = (
+				8B257AD9C4803B65C7BBDA70 /* Check Pods Manifest.lock */,
 				516019D91BE2CB700071A345 /* Sources */,
 				516019DA1BE2CB700071A345 /* Frameworks */,
 				516019DB1BE2CB700071A345 /* Resources */,
+				7EF77C8234C9368CD73E70D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +302,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516019EF1BE2CB700071A345 /* Main.storyboard in Resources */,
 				516019F41BE2CB700071A345 /* LaunchScreen.xib in Resources */,
+				FD395FCA1BE442FE0061ADC6 /* Search.storyboard in Resources */,
 				516019F11BE2CB700071A345 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,15 +317,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EF77C8234C9368CD73E70D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B257AD9C4803B65C7BBDA70 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		516019D91BE2CB700071A345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				516019E61BE2CB700071A345 /* AppDelegate.m in Sources */,
+				51E32B611BE3B296001DCCAC /* NSString+MacysAdditions.m in Sources */,
 				516019E31BE2CB700071A345 /* main.m in Sources */,
-				516019EC1BE2CB700071A345 /* ViewController.m in Sources */,
-				516019E91BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld in Sources */,
+				51B3427E1BE3B7B200773049 /* AcronymMeanings.m in Sources */,
+				51E32B5E1BE3B289001DCCAC /* UnknownServiceResponseError.m in Sources */,
+				51B342811BE3C1DC00773049 /* AcronymMeaningCell.m in Sources */,
+				51E32B591BE3B215001DCCAC /* AcronymSearchService.m in Sources */,
+				516019EC1BE2CB700071A345 /* AcronymSearchViewController.m in Sources */,
+				51B342841BE3C5FD00773049 /* AcronymLongForm.m in Sources */,
+				51E32B571BE3B215001DCCAC /* OBaseHttpService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,20 +387,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		516019ED1BE2CB700071A345 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				516019EE1BE2CB700071A345 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		516019F21BE2CB700071A345 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				516019F31BE2CB700071A345 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FD395FC81BE442FE0061ADC6 /* Search.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD395FC91BE442FE0061ADC6 /* Base */,
+			);
+			name = Search.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,6 +486,7 @@
 		};
 		51601A041BE2CB700071A345 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EC2D043A34AD9DD53562E4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MacysAcronymSearch/Info.plist;
@@ -357,6 +497,7 @@
 		};
 		51601A051BE2CB700071A345 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E560ADA7F55B123AC16499B1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MacysAcronymSearch/Info.plist;
@@ -418,6 +559,7 @@
 				51601A051BE2CB700071A345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51601A061BE2CB700071A345 /* Build configuration list for PBXNativeTarget "MacysAcronymSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -426,21 +568,9 @@
 				51601A081BE2CB700071A345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		516019E71BE2CB700071A345 /* MacysAcronymSearch.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				516019E81BE2CB700071A345 /* MacysAcronymSearch.xcdatamodel */,
-			);
-			currentVersion = 516019E81BE2CB700071A345 /* MacysAcronymSearch.xcdatamodel */;
-			path = MacysAcronymSearch.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 516019D51BE2CB700071A345 /* Project object */;
 }
